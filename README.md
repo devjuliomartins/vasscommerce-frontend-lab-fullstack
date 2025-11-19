@@ -15,12 +15,12 @@ git clone https://github.com/seu-usuario/vasscommerce-frontend.git
 cd vasscommerce-frontend
 ```
 
-## 2. Instalar dependências
+### 2. Instalar dependências
 ```bash
 npm install
 ```
 
-## 3. Rodar o servidor de desenvolvimento
+### 3. Rodar o servidor de desenvolvimento
 ```bash
 npm run dev
 ```
