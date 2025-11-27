@@ -4,7 +4,7 @@ async function safeJson(res) {
     try { return await res.json() } catch { return null }
 }
 
-
+// Lista todas as categorias
 export async function listarCategorias(signal) {
     const res = await fetch(`${BASE_URL}/categoria`, {
         method: 'GET',
@@ -19,6 +19,7 @@ export async function listarCategorias(signal) {
     return res.json()
 }
 
+// Cria um novo produto
 export async function criarProduto(dto) {
     const res = await fetch(`${BASE_URL}/produto`, {
         method: 'POST',
